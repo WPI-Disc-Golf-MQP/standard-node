@@ -23,7 +23,9 @@ enum MODULE_STATUS {
     IN_PROGRESS = 2,
     COMPLETE = 3,
     INVALID_REPEAT = 4,
-    ERROR_REBOOT = 5};
+    ERROR_REBOOT = 5,
+    MY_NEW_STATE = 6,
+    };
 
 enum REQUEST {
     INITIALIZING = 0,

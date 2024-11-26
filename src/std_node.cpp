@@ -36,8 +36,8 @@ enum REQUEST {
 
 
 
-HardwareSerial hserial(0, 1); // SAMD21-mini RX, TX
-#define Serial1 hserial // This will overwrite the current Serial1 serial port and will use hserial port.
+// HardwareSerial hserial(0, 1); // SAMD21-mini RX, TX
+// #define Serial1 hserial // This will overwrite the current Serial1 serial port and will use hserial port.
 // #define USE_STM32_HW_SERIAL
 // #define __STM32F3xxxx__
 

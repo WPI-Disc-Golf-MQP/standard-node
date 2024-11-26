@@ -36,10 +36,10 @@ enum REQUEST {
 
 
 
-HardwareSerial hserial(PA_15, PA_2); // NUCLEO-F303K8 RX, TX
+HardwareSerial hserial(0, 1); // SAMD21-mini RX, TX
 #define Serial1 hserial // This will overwrite the current Serial1 serial port and will use hserial port.
-#define USE_STM32_HW_SERIAL
-#define __STM32F3xxxx__
+// #define USE_STM32_HW_SERIAL
+// #define __STM32F3xxxx__
 
 ros::NodeHandle nh;
 unsigned long last_status = 0;

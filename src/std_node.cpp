@@ -7,6 +7,11 @@
 #include "HardwareSerial.h"
 #include <std_msgs/String.h>
 #include <std_msgs/Int8.h>
+
+// needed to remove Arduino's min and max macros
+#undef min
+#undef max
+
 #include <functional>
 #include <vector>
 

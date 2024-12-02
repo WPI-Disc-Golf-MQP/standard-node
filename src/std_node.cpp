@@ -3,12 +3,15 @@
  */
 
 #include <Arduino.h>
+#undef min
+#undef max
 #include <ros.h>
 #include "HardwareSerial.h"
 #include <std_msgs/String.h>
 #include <std_msgs/Int8.h>
 #include <functional>
 #include <vector>
+#include <bits/stl_algo.h>
 
 #ifndef NODE_NAME
     #define NODE_NAME String("std_node")
